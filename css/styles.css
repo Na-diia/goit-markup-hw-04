@@ -363,7 +363,7 @@ img {
     gap: 30px;
 }
 
-.clients-box {
+.clients-link {
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
@@ -377,12 +377,13 @@ img {
     fill: var(--soc-icon-color);
 }  
 
-.clients-box:hover, .clients-box:focus {
+.clients-link:hover, .clients-link:focus {
     border: 1px solid  var(--accent-color);
+    background-color: #fff;
 }
 
-.clients-box:hover .clients-icon,
-.clients-box:focus .clients-icon {
+.clients-link:hover .clients-icon,
+.clients-link:focus .clients-icon {
     fill: var(--accent-color);
 }
 
@@ -484,7 +485,6 @@ img {
 .footer-box {
     display: flex;
     align-items: baseline;
-    margin-left: 215px;
 }
 
 .buttons {
